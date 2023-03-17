@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.grupo{
+    display: flex;
+    justify-content: flex-start;
+    gap: 23px;
+    height: 24px;
+    margin-bottom: 15px;
+}
+
+.grupo label, button{
+    width:100%;
+    font-size:17px;
+    font-weight:bold;
+}
+
+.grupo button{
+    border-radius: 6px;
+    margin: 2px;
+    color: rgb(255, 255, 255);
+
+    height: 32px;
+    cursor: pointer;
+    background-image: linear-gradient(to right top, #c96f6f, #93d6f5, #be5d5d);
+    transition: .5s ease-in-out; 
+}
+
+.grupo input{
+    display:block;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+textarea{
+    margin-top:20px;
+    width:100%;
+    height: 400px;
+    border-radius: 15px;
+    padding: 15px;
+    font-size:24px;
+    color:#1d2742;
+    font-weight:bold;
+}

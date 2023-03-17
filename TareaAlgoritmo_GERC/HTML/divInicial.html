@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style2.css">
+    <title>Document</title>
+</head>
+<body>
+    <sec class="container">
+        <h1>Divisores por Valor Inicial</h1>
+        <form action="../HTML/index.html">
+            <div class="grupo">
+                <label for="num1">Desde el número: </label>
+                <input type="text" id="num1" value="">
+            </div>
+            <div class="grupo">
+                <label for="num2">Hasta el:</label>
+                <input type="text" id="num2" value="">
+            </div>
+            <div class="grupo">
+                <button type="button" onclick="ejer.arrayDivisor()">Calcular</button>
+                <button type="submit">Regresar</button>
+                <button type="reset">Limpiar</button>
+            </div>  
+            <textarea id="resp" rows="10">
+
+            </textarea>
+        </form>
+    </sec>
+    <script src="../JS/index.js"></script>
+</body>
+</html>
